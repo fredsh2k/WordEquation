@@ -1,0 +1,30 @@
+Sub InsertEquationENG()
+'
+' InsertEquationENG Macro
+' 1033 = ENG, 1037=HEB
+'
+
+Dim objRange As Range
+Dim objEq As OMath
+
+Set objRange = Selection.Range
+objRange.Text = ""
+Set objRange = Selection.OMaths.Add(objRange)
+Set objEq = objRange.OMaths(1)
+objEq.BuildUp
+
+Application.Keyboard (1033)
+
+End Sub
+Sub exitEquationHEB()
+'
+' exitEquationHEB Macro
+' 
+'
+
+
+    Selection.MoveRight Unit:=wdCharacter, Count:=1
+    Application.Keyboard (1037)
+    Selection.TypeText Text:=" "
+    
+End Sub
