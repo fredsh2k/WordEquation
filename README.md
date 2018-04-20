@@ -13,4 +13,4 @@ Note: Keyboard shortcut can be changed to your preference.
 Language can be changed to your preference.
 
 Instructions:
-https://docs.google.com/document/d/1o-CkEgmaFjOzgZIaEMVx7wq_LE1vEUsDtVYsqb4togs/edit?usp=sharing
+https://docs.google.com/document/d/1P85PNi_pjKbtVxUpuTkvAOq1mc6fvtEo4WQpcYbmAe0/edit?usp=sharing
